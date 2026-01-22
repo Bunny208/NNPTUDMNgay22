@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Product JS Assignment</title>
+</head>
+
+<body style="font-family: Arial; background:#f4f6f8; padding:20px">
+
+<h1 style="text-align:center">📦 Product Management - JavaScript</h1>
+
+<div style="display:grid; grid-template-columns: 1fr 2fr 1.5fr; gap:15px">
+
+    <!-- LEFT -->
+    <div style="background:white; padding:15px; border-radius:8px">
+        <h3>Các câu hỏi</h3>
+        <button onclick="showQuestion(1)">Câu 1</button><br><br>
+        <button onclick="showQuestion(2)">Câu 2</button><br><br>
+        <button onclick="showQuestion(3)">Câu 3</button><br><br>
+        <button onclick="showQuestion(4)">Câu 4</button><br><br>
+        <button onclick="showQuestion(5)">Câu 5</button><br><br>
+        <button onclick="showQuestion(6)">Câu 6</button><br><br>
+        <button onclick="showQuestion(7)">Câu 7</button><br><br>
+        <button onclick="showQuestion(8)">Câu 8</button><br><br>
+        <button onclick="showQuestion(9)">Câu 9</button><br><br>
+        <button onclick="showQuestion(10)">Câu 10</button>
+    </div>
+
+    <!-- CENTER -->
+    <div style="background:white; padding:15px; border-radius:8px">
+        <h3>Kết quả</h3>
+        <div id="result">👉 Nhấn vào một câu để xem kết quả</div>
+    </div>
+
+    <!-- RIGHT -->
+    <div style="background:white; padding:15px; border-radius:8px">
+        <h3>Danh sách sản phẩm</h3>
+        <div id="productList"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
